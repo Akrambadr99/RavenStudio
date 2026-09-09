@@ -82,7 +82,7 @@ export function AppShell() {
       <aside className="app-sidebar">
         <Link className="app-brand" to="/" aria-label="Worklio dashboard">
           <span className="app-brand__mark" aria-hidden="true">
-            TK
+            WL
           </span>
           <span>Worklio</span>
         </Link>
@@ -110,7 +110,7 @@ export function AppShell() {
       <div className="app-content">
         <header className="app-topbar">
           <div>
-            <p className="app-topbar__label">Workspace</p>
+            <p className="app-topbar__label">Organize your working day</p>
             <p className="app-topbar__name">Worklio Workspace</p>
           </div>
           <GlobalSearch />
