@@ -45,7 +45,7 @@ export function createAppServices(
   const workspaceId = fixtures.workspaces[0]?.id
 
   if (!workspaceId) {
-    throw new Error('Worklio requires a default workspace fixture.')
+    throw new Error('RavenStudio requires a default workspace fixture.')
   }
 
   const defaultMembership = fixtures.memberships.find(
@@ -60,7 +60,7 @@ export function createAppServices(
   )
 
   if (!actorId || !user || !workspaceMembership) {
-    throw new Error('Worklio requires an actor with workspace membership.')
+    throw new Error('RavenStudio requires an actor with workspace membership.')
   }
 
   const projectMemberships = fixtures.projectMembers.filter(
